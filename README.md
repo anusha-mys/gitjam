@@ -78,9 +78,3 @@ python -m unittest discover -s tests -v
 A level consists of a setup function that creates the broken repository and a
 check function that returns `(ok, message)`. Register both in `LEVELS` and add
 tests for the unsolved state and a valid solution.
-
-## License
-
-No license is currently provided. All rights are reserved; publishing this
-repository does not grant permission to reuse, modify, or redistribute its
-contents. Add a license before accepting contributions or allowing reuse.
