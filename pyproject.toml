@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gitjam"
+version = "0.1.0"
+description = "Fix real, broken git repos. An offline git puzzle game."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["git", "game", "learning", "cli"]
+
+[project.scripts]
+gitjam = "gitjam:main"
+
+[tool.setuptools]
+py-modules = ["gitjam"]
